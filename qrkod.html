@@ -55,16 +55,19 @@
     }
 
     .logo-wrap {
-      width: 60px;
-      height: 60px;
-    }
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
         
     .logo-img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      border-radius: 12px; /* istersen kaldır */
-    }
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
 
     .logo-wrap svg {
       width: 44px;
@@ -191,8 +194,7 @@
 
   <header>
     <div class="logo-wrap">
-        <img src="logo.jpeg" alt="Logo" width="80" />    
-    </div>
+        <img src="logo.jpeg" alt="Logo" class="logo-img" />    </div>
     <h1>Yayın Denizi</h1>
     <p>Sınava giden yolda seninle</p>
   </header>
